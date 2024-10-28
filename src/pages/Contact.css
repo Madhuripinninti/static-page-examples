@@ -1,0 +1,20 @@
+.contact-container {
+    padding: 20px;
+    text-align: center; /* Center the text and buttons */
+  }
+  
+  .contact-button {
+    background-color: #98171b; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    margin: 10px; /* Space between buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

@@ -1,0 +1,49 @@
+.home-container {
+  text-align: center; /* Center the text */
+  padding: 20px; /* Add padding */
+}
+
+.search-container {
+  margin: 20px 0; /* Space around the search field */
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  width: 200px; /* Width of the input */
+}
+
+.search-button {
+  padding: 10px 15px;
+  margin-left: 10px; /* Space between input and button */
+  background-color: purple; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-container {
+  margin-top: 20px; /* Space above the button container */
+}
+
+.nav-button {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Add padding */
+  margin: 10px; /* Space between buttons */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.nav-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}

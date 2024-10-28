@@ -1,0 +1,84 @@
+/* App.css */
+
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #033465;
+}
+
+/* Navigation styles */
+nav {
+  background: #680830; /* Bootstrap primary color */
+  color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 30px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffeb3b; /* Light yellow color on hover */
+}
+
+/* Page styles */
+h1 {
+  color: #ca1b1b;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Main content area */
+.page-content {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* List styles */
+ul {
+  padding-left: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+
+  .page-content {
+    padding: 10px;
+  }
+}
